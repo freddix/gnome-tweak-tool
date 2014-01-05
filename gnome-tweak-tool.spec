@@ -1,11 +1,11 @@
 Summary:	A tool to customize advanced GNOME 3 options
 Name:		gnome-tweak-tool
-Version:	3.10.0
+Version:	3.10.1
 Release:	1
 License:	GPL v3
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-tweak-tool/3.10/%{name}-%{version}.tar.xz
-# Source0-md5:	693667e6c23bf4af2ea27f84d8bed87f
+# Source0-md5:	3f98c5fd64353299990f546a4ce8d611
 URL:		http://live.gnome.org/GnomeTweakTool
 BuildRequires:	gettext-devel
 BuildRequires:	gsettings-desktop-schemas-devel >= 1.38.0
