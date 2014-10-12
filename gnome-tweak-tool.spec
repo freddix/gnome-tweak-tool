@@ -1,24 +1,24 @@
 Summary:	A tool to customize advanced GNOME 3 options
 Name:		gnome-tweak-tool
-Version:	3.12.0
+Version:	3.14.0
 Release:	1
 License:	GPL v3
 Group:		X11/Applications
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-tweak-tool/3.12/%{name}-%{version}.tar.xz
-# Source0-md5:	377b694457f61163013ef47eb6171c30
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-tweak-tool/3.14/%{name}-%{version}.tar.xz
+# Source0-md5:	15955cb848fce13d3d2764509e3768df
 URL:		http://live.gnome.org/GnomeTweakTool
 BuildRequires:	gettext-devel
-BuildRequires:	gsettings-desktop-schemas-devel >= 1.40.0
+BuildRequires:	gsettings-desktop-schemas-devel >= 1.42.0
 BuildRequires:	intltool
 BuildRequires:	pkg-config
-BuildRequires:	python-pygobject3-devel >= 3.12.0
+BuildRequires:	python-pygobject3-devel >= 3.14.0
 BuildArch:	noarch
 Requires(post,postun):	/usr/bin/gtk-update-icon-cache
 Requires(post,postun):	hicolor-icon-theme
-Requires:	gobject-introspection >= 1.40.0
-Requires:	gsettings-desktop-schemas >= 3.12.0
+Requires:	gobject-introspection >= 1.42.0
+Requires:	gsettings-desktop-schemas >= 3.14.0
 Requires:	python
-Requires:	python-pygobject3 >= 3.12.0
+Requires:	python-pygobject3 >= 3.14.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
